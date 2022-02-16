@@ -1,0 +1,183 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "mantle",
+            "rotation" : [
+                0,
+                -0.9993149042129517,
+                0,
+                0.03701166808605194
+            ],
+            "scale" : [
+                3.514630079269409,
+                3.514630079269409,
+                3.514630079269409
+            ],
+            "translation" : [
+                -6.1300950050354,
+                0.10369658470153809,
+                0.0021524429321289062
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "1001_normal",
+            "uri" : "1001_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "gltf 4isyi_DefaultMaterial_Metallic_1001",
+            "uri" : "gltf%204isyi_DefaultMaterial_Metallic_1001.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "1001_baseColor",
+            "uri" : "1001_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "1001_occlusionRoughnessMetallic",
+            "uri" : "1001_occlusionRoughnessMetallic.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 64344,
+            "max" : [
+                0.46196186542510986,
+                1.7665053606033325,
+                0.5094637274742126
+            ],
+            "min" : [
+                -0.4370119571685791,
+                0.022036420181393623,
+                -0.18022935092449188
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 64344,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 64344,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 374148,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 772128,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 772128,
+            "byteOffset" : 772128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 514752,
+            "byteOffset" : 1544256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 748296,
+            "byteOffset" : 2059008
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2807304,
+            "uri" : "nodeswaterdrops1.bin"
+        }
+    ]
+}
